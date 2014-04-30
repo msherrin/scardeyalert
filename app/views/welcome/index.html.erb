@@ -1,7 +1,24 @@
-<h1>Welcome to Scardey Alert</h1>
-<p id="index-title">This is the home page for Scardey Alert.</p>
+<br/>
+<div class="jumbotron">
+  <h1>ScardeyAlert</h1>
+  <p>ScardeyAlert is a resource for sharing links with Scardey about things that he is scared of!</p>
+  <p>
+      <%= link_to "Sign In", new_user_session_path, class: 'btn btn-primary' %> or 
+      <%= link_to "Sign Up", new_user_registration_path, class: 'btn btn-primary' %> today!
+  </p>
+</div>
 
-<div class="posts">Post 1 goes here.</div>
-<div class="posts">Post 2 goes here.</div>
-
-<section>I am the content in a section element.</section>
+<div class="row">
+  <div class="col-md-4">
+    <h2>Solves possum attacks</h2>
+    <p>ScardeyAlert will deliver warnings when possums are close by.</p>
+  </div>
+  <div class="col-md-4">
+    <h2>Eliminates vacuum cleaner emergencies</h2>
+    <p>ScardeyAlert will deliver a warning when the dreaded machine is about to be started up!</p>
+  </div>
+  <div class="col-md-4">
+    <h2>Makes Scardey happier</h2>
+    <p>ScardeyAlert will help prevent you from being peed on:</p>
+  </div>
+</div>

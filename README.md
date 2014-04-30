@@ -4,6 +4,8 @@
 
 Made with my mentor at [Bloc](http://bloc.io).
 
+Please note the setup section - look at config/application.yml
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
